@@ -8,4 +8,4 @@ Rails.application.config.assets.version = '1.0'
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-Rails.application.config.assets.precompile += %w(back-to-top.js imagesloaded.pkgd.min.js isotope.pkgd.min.js main.js chart-theme-1.js chart-theme-2.js chart-theme-3.js jquery.easypiechart.min.js main.js)
+Rails.application.config.assets.precompile += %w(back-to-top.js imagesloaded.pkgd.min.js isotope.pkgd.min.js main.js chart-theme-1.js chart-theme-2.js chart-theme-3.js jquery.scrollTo.min.js jquery.easypiechart.min.js main.js)

@@ -8,8 +8,7 @@ Bundler.require(*Rails.groups)
 
 module Workspace
   class Application < Rails::Application
-    config.serve_static_files = true
-    Rails.application.config.assets.precompile += %w(back-to-top.js imagesloaded.pkgd.min.js isotope.pkgd.min.js main.js chart-theme-1.js chart-theme-2.js chart-theme-3.js jquery-scrollTo/jquery.scrollTo.min.js)
+    # config.serve_static_files = true
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
